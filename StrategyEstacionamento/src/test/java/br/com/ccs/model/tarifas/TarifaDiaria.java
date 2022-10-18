@@ -13,12 +13,21 @@ public class TarifaDiaria implements CalculoTarifa {
     @Override
     public BigDecimal calcular(Integer qtdHoras) {
 
-        int qtdDiarias = Math.divideExact(qtdHoras, 24);
+        int qtdDiarias;
 
-        if (qtdHoras % 24 > 0) {
-            qtdDiarias++;
+        if (qtdHoras <= 24) {
+            qtdDiarias = 1;
+        } else {
+            qtdDiarias = calcularDiarias(qtdHoras) + 1;
         }
 
+
         return valorTarifaDiaria.multiply(BigDecimal.valueOf(qtdDiarias));
+    }
+
+    private int calcularDiarias(int qtdHoras) {
+
+        return (int) Math.ceil(qtdHoras / 24);
+
     }
 }

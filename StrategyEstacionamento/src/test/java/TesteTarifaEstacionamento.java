@@ -89,22 +89,33 @@ public class TesteTarifaEstacionamento {
     }
 
     @Test
-    @DisplayName("Testa a Tarifa Diaria")
-    public void tarifaDiaria() {
+    @DisplayName("Testa a Tarifa Diaria Com 36 Horas e Valor Diaria = 60")
+    public void tarifaDiariaMaiorQue24Horas() {
 
-        int qtdDiarias = Math.divideExact(QTD_HORAS, 24);
+        BigDecimal expected = BigDecimal.valueOf(120);
 
-        if (QTD_HORAS % 24 > 0) {
-            qtdDiarias++;
-        }
-
-        BigDecimal expected = VALOR_TARIFA_DIARIA.multiply(BigDecimal.valueOf(qtdDiarias));
-
-       expected = expected.setScale(2, RoundingMode.HALF_UP);
+        expected = expected.setScale(2, RoundingMode.HALF_UP);
 
         TarifaDiaria calculoTarifa = new TarifaDiaria(VALOR_TARIFA_DIARIA);
 
-        TarifaEstacionamento tarifa = new TarifaEstacionamento(QTD_HORAS,
+        TarifaEstacionamento tarifa = new TarifaEstacionamento(36,
+                calculoTarifa);
+
+        Assertions.assertEquals(expected, tarifa.getTotal());
+
+    }
+
+    @Test
+    @DisplayName("Testa a Tarifa Diaria com 18 Horas e valor diaria = 60")
+    public void tarifaDiariaMenorQue24Horas() {
+
+        BigDecimal expected = BigDecimal.valueOf(60);
+
+        expected = expected.setScale(2, RoundingMode.HALF_UP);
+
+        TarifaDiaria calculoTarifa = new TarifaDiaria(VALOR_TARIFA_DIARIA);
+
+        TarifaEstacionamento tarifa = new TarifaEstacionamento(18,
                 calculoTarifa);
 
         Assertions.assertEquals(expected, tarifa.getTotal());
