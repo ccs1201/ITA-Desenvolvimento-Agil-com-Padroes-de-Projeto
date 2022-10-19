@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ccb8eea8-61e4-4940-90e9-94f4ae12d555" name="Changes" comment="#01">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ITA- Desenvolvimento Agil com Design Patterns.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GJwZ4PsR9zYWLZiGUBOKQUVYvQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "JDK 19",
+    "last_directory_selection": "/home/csouza/IdeaProjects/ITA- Desenvolvimento Agil com Design Patterns/StrategyEstacionamento/src/main/java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.18278301",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.ccs.model.tarifas" />
+      <recent name="br.com.ccs.service" />
+      <recent name="br.com.ccs.model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TesteTarifaEstacionamento">
+    <configuration name="TesteTarifaEstacionamento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StrategyEstacionamento" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TesteTarifaEstacionamento" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteTarifaEstacionamento.tarifaDiaria" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StrategyEstacionamento" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TesteTarifaEstacionamento" />
+      <option name="METHOD_NAME" value="tarifaDiaria" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteTarifaEstacionamento.tarifaFixaPorHora" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StrategyEstacionamento" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TesteTarifaEstacionamento" />
+      <option name="METHOD_NAME" value="tarifaFixaPorHora" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteTarifaEstacionamento.tarifaInicialComAdicionalPorHora" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StrategyEstacionamento" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TesteTarifaEstacionamento" />
+      <option name="METHOD_NAME" value="tarifaInicialComAdicionalPorHora" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteTarifaEstacionamento.tarifaInicialComAdicionalPorHoraAbaixoDoLimite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StrategyEstacionamento" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TesteTarifaEstacionamento" />
+      <option name="METHOD_NAME" value="tarifaInicialComAdicionalPorHoraAbaixoDoLimite" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TesteTarifaEstacionamento" />
+        <item itemvalue="JUnit.TesteTarifaEstacionamento.tarifaDiaria" />
+        <item itemvalue="JUnit.TesteTarifaEstacionamento.tarifaInicialComAdicionalPorHoraAbaixoDoLimite" />
+        <item itemvalue="JUnit.TesteTarifaEstacionamento.tarifaInicialComAdicionalPorHora" />
+        <item itemvalue="JUnit.TesteTarifaEstacionamento.tarifaFixaPorHora" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ccb8eea8-61e4-4940-90e9-94f4ae12d555" name="Changes" comment="" />
+      <created>1666120046365</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666120046365</updated>
+      <workItem from="1666120047894" duration="1188000" />
+      <workItem from="1666122943268" duration="1089000" />
+      <workItem from="1666124049103" duration="11407000" />
+    </task>
+    <task id="LOCAL-00001" summary="#01">
+      <created>1666133833520</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666133833520</updated>
+    </task>
+    <task id="LOCAL-00002" summary="#01">
+      <created>1666135430322</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666135430322</updated>
+    </task>
+    <task id="LOCAL-00003" summary="#01">
+      <created>1666135448110</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666135448110</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="#01" />
+    <option name="LAST_COMMIT_MESSAGE" value="#01" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/StrategyEstacionamento/src/test/java/TesteTarifaEstacionamento.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
