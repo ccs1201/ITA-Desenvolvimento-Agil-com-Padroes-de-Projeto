@@ -21,7 +21,6 @@ public class TarifaDiaria implements CalculoTarifa {
             qtdDiarias = calcularDiarias(qtdHoras) + 1;
         }
 
-
         return valorTarifaDiaria.multiply(BigDecimal.valueOf(qtdDiarias));
     }
 
