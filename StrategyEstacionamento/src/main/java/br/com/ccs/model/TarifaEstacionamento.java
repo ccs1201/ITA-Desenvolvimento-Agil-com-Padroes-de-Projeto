@@ -7,8 +7,8 @@ import java.math.RoundingMode;
 
 public class TarifaEstacionamento {
 
-    private Integer qtdHoras;
-    private CalculoTarifa calculoTarifa;
+    private final Integer qtdHoras;
+    private final CalculoTarifa calculoTarifa;
 
     public TarifaEstacionamento(Integer qtdHoras, CalculoTarifa calculoTarifa) {
         this.qtdHoras = qtdHoras;
