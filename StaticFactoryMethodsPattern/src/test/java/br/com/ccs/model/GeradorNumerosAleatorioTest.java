@@ -6,8 +6,8 @@ import org.junit.jupiter.api.Test;
 
 class GeradorNumerosAleatorioTest {
 
-    private int min = 1;
-    private int max = 1;
+    private final int min = 9;
+    private final int max = 18;
 
     @Test
     @DisplayName("Testa se o numero inteiro aleatório está entre MIN e MAX")
@@ -24,7 +24,6 @@ class GeradorNumerosAleatorioTest {
         }
 
         Assertions.assertTrue(result);
-
     }
 
     @Test
@@ -43,7 +42,6 @@ class GeradorNumerosAleatorioTest {
         }
 
         Assertions.assertTrue(result);
-
     }
 
     @Test
@@ -62,7 +60,6 @@ class GeradorNumerosAleatorioTest {
         }
 
         Assertions.assertTrue(result);
-
     }
 
     @Test
@@ -81,6 +78,5 @@ class GeradorNumerosAleatorioTest {
         }
 
         Assertions.assertTrue(result);
-
     }
 }
