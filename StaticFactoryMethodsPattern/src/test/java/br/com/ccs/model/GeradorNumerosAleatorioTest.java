@@ -70,10 +70,10 @@ class GeradorNumerosAleatorioTest {
 
         boolean result = false;
 
-        int randomNunber = gerador.generateRandomInt();
-        System.out.println(randomNunber);
+        int randomNumber = gerador.generateRandomInt();
+        System.out.println(randomNumber);
 
-        if (randomNunber <= max && randomNunber >= 0) {
+        if (randomNumber <= max && randomNumber >= 0) {
             result = true;
         }
 
